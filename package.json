@@ -1,0 +1,9 @@
+{
+  "name": "Girl-Blog",
+  "version": "1.0.0",
+  "description": "VuePress+",
+  "main": "index.js",
+  "repository": "git@github.com:vuvivian/Girl-Blog.git",
+  "author": "vuvivian",
+  "license": "MIT"
+}
