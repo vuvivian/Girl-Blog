@@ -3,7 +3,7 @@
  * @Description: 请输入....
  * @Date: 2022-06-11 21:26:32
  * @LastEditors: Do not edit
- * @LastEditTime: 2022-06-12 22:23:48
+ * @LastEditTime: 2022-06-12 23:18:15
  * @FilePath: /Girl-Blog/docs/.vuepress/config.js
  */
 module.exports = {
@@ -30,7 +30,6 @@ module.exports = {
     ],
     themeConfig: {
         type: 'blog',
-        docsDir: "docs",
         subSidebar: 'auto',
         lastUpdated: '上次更新',
         logo: '/assets/img/logo.jpeg',
@@ -70,17 +69,6 @@ module.exports = {
             }],
             '/': [],
         },  
-         // 博客设置
-        blogConfig: {
-            category: {
-                location: 2, // 在导航栏菜单中所占的位置，默认2
-                text: 'Category' // 默认 “分类”
-            },
-            tag: {
-                location: 3, // 在导航栏菜单中所占的位置，默认3
-                text: 'Tag' // 默认 “标签”
-            }
-        },
     },
     plugins: [
         // 代码复制弹窗插件
@@ -148,11 +136,10 @@ module.exports = {
             }
         }],
         // //彩带背景 先安装在配置， npm install vuepress-plugin-ribbon --save
-        // ["ribbon", {
-        //     size: 90,     // width of the ribbon, default: 90
-        //     opacity: 0.8, // opacity of the ribbon, default: 0.3
-        //     zIndex: -1    // z-index property of the background, default: -1
-        // }],
-
+        ["ribbon", {
+            size: 90,     // width of the ribbon, default: 90
+            opacity: 0.8, // opacity of the ribbon, default: 0.3
+            zIndex: -1    // z-index property of the background, default: -1
+        }],
     ],
   }

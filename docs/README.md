@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /assets/img/home.png
-actionText: 点击进入 →
-actionLink: /
+# actionText: 点击进入 →
+# actionLink: /
 bgImageStyle: {
   height: '350px'
 }
