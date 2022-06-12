@@ -3,7 +3,7 @@
  * @Description: 请输入....
  * @Date: 2022-06-11 21:26:32
  * @LastEditors: Do not edit
- * @LastEditTime: 2022-06-13 00:19:59
+ * @LastEditTime: 2022-06-13 00:37:18
  * @FilePath: /Girl-Blog/docs/.vuepress/config.js
  */
 module.exports = {
@@ -36,6 +36,8 @@ module.exports = {
         authorAvatar: '/assets/img/logo.jpeg',
         editLinks: true,
         editLinkText: "在 GitHub 上编辑此页",
+        mode: 'dark', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+        modePicker: true, // 默认 true，false 不显示模式调节按钮，true 则显示
         nav: [
             { text: 'Home', link: '/', icon: 'reco-home' },  //text:导航标题内容，icon：图标样式
             { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
