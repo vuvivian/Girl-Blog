@@ -3,7 +3,7 @@
  * @Description: 请输入....
  * @Date: 2022-06-11 21:26:32
  * @LastEditors: Do not edit
- * @LastEditTime: 2022-06-13 00:37:18
+ * @LastEditTime: 2022-06-13 00:43:27
  * @FilePath: /Girl-Blog/docs/.vuepress/config.js
  */
 module.exports = {
@@ -59,7 +59,7 @@ module.exports = {
                 title: '源码阅读',
                 collapsable: true,
                 children: [
-                    'affrify.md'
+                    'arrify工具函数源码阅读'
                 ]
             }],
             '/重学前端/': [{
