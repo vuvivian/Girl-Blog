@@ -3,7 +3,7 @@
  * @Description: 请输入....
  * @Date: 2022-06-11 21:26:32
  * @LastEditors: Do not edit
- * @LastEditTime: 2022-06-12 23:18:15
+ * @LastEditTime: 2022-06-13 00:09:14
  * @FilePath: /Girl-Blog/docs/.vuepress/config.js
  */
 module.exports = {
@@ -64,7 +64,25 @@ module.exports = {
                 title: '重学前端',
                 collapsable: true,
                 children: [
-                    ''
+                    '2021.02.21 JavaScript基础篇',
+                    '2021.02.23 Ajax篇',
+                    '2021.02.24 节流与防抖篇',
+                    '2021.02.25 call、apply 及 bind 函数',
+                    '2021.02.25 CSS基础篇',
+                    '2021.03.01 ES6基础篇',
+                    '2021.04.01 如何判断一个数据是NaN',
+                    '2021.04.05 如何实现一个new',
+                    '2021.04.06 ES2020新特性有哪些',
+                    '2021.04.07 客户端与服务端的缓存',
+                    '2021.04.08 JS异步解决方案发展史',
+                    '2021.4.25 函数柯里化的实现',
+                    '2021.05.07 Webpack篇',
+                    '2021.06.26 React原理篇',
+                    '2021.07.12 Vue基础知识篇',
+                    '2021.07.19 JS选中作用域',
+                    '2021.07.20 Javascript中的类',
+                    '2021.8.20 Promise篇',
+                    '2021.09.09 TypeScript'
                 ]
             }],
             '/': [],
